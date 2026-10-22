@@ -6,7 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/CLASE-2/CLASE-2.iml" filepath="$PROJECT_DIR$/CLASE-2/CLASE-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/CLASE-3/CLASE-3.iml" filepath="$PROJECT_DIR$/CLASE-3/CLASE-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/CLASE-4/CLASE-4.iml" filepath="$PROJECT_DIR$/CLASE-4/CLASE-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLASE-5/CLASE-5.iml" filepath="$PROJECT_DIR$/CLASE-5/CLASE-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLASE-5/EJ2-polimorfismo/EJ2-polimorfismo.iml" filepath="$PROJECT_DIR$/CLASE-5/EJ2-polimorfismo/EJ2-polimorfismo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CLASE-4/Ejemplo-Herencia/Ejemplo-Herencia.iml" filepath="$PROJECT_DIR$/CLASE-4/Ejemplo-Herencia/Ejemplo-Herencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLASE-5/Ejemplo-sobrecarga/Ejemplo-sobrecarga.iml" filepath="$PROJECT_DIR$/CLASE-5/Ejemplo-sobrecarga/Ejemplo-sobrecarga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLASE-5/Practica7/Practica7.iml" filepath="$PROJECT_DIR$/CLASE-5/Practica7/Practica7.iml" />
     </modules>
   </component>
 </project>
