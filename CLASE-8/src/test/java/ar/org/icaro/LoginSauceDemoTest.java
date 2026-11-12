@@ -34,6 +34,13 @@ public class LoginSauceDemoTest {
 
     }
 
+    @Test
+    public void ValidarLoginFallido(){
+        Login("standard_user","secret_sauce123");
+        Assert.assertTrue(driver.findElement(By.cssSelector("h3[data-test='error']")).isDisplayed(),"Deberia mostrar mensaje de error");
+        Assert.assertEquals(driver.findElement(By.cssSelector("h3[data-test='error']")).getText(),"Epic sadface: Username and password do not match any user in this service","El mensaje de error es incorrecto");
+        System.out.println("Caso de login fallido pass");
+    }
 
 }
 
