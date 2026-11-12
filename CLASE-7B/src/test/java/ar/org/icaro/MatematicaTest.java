@@ -11,7 +11,7 @@ public class MatematicaTest {
     @Test
     public void ValidarSuma(){
 
-        int resultado = Matematica.Suma(4,4);
+        int resultado = Matematica.Suma(4,5);
 
         Assert.assertEquals(resultado,9,"El resultadon deberia ser 9");
         System.out.println("El test paso correctamente el resultado es: " + resultado);
