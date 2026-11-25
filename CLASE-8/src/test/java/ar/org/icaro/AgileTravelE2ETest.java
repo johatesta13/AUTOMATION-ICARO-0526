@@ -50,13 +50,7 @@ public class AgileTravelE2ETest {
 
     }
 
-    @AfterClass
-    public void TearDown(){
 
-        if (driver !=null){
-            driver.quit();
-        }
-    }
 
     //PASO 1: LOGIN EN LA PAGINA
     @Test(priority = 1,description = "Validar login exitoso con credenciales validad")
@@ -130,6 +124,7 @@ public class AgileTravelE2ETest {
 
         WebElement btncontinue = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Continue']")));
         btncontinue.click();
+        System.out.println("Vuelo seleccionado, esperando formulario de pasajero");
 
     }
 
@@ -158,6 +153,7 @@ public class AgileTravelE2ETest {
         //VALIDAMOS QUE LLEGAMOS A LA PAGINA DE PAGO
         WebElement tituloPago = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Pay by Credit Card']")));
         Assert.assertTrue(tituloPago.isDisplayed(),"Deberia mostrarse la pagina de pago");
+        System.out.println("Formulario de pasajero completado, esperando pagina de pago");
 
     }
 
@@ -188,6 +184,8 @@ public class AgileTravelE2ETest {
 
         WebElement btnPagar = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Pay now']")));
         btnPagar.click();
+
+        System.out.println("Pago realizado, esperando confirmacion de la reserva");
 
     }
 
